@@ -1,0 +1,148 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+body
+{
+    background-color: #FFEEDB;
+    height: 100vh;
+    font-family: Sofia Sans, sans-serif;
+
+}
+
+h1
+{
+    color: #BA3B46;
+    padding-right: 15px;
+}
+
+
+img
+{
+    height: 24px;
+}
+
+form
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #FFEEDB; 
+   padding-left: 25px;
+   margin: 50px 50px 0px 50px;
+   border-radius: 30px;
+   position: relative;
+}
+
+#task-name
+{
+    flex: 1;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #BA3B46;
+    font-weight: 900;
+}
+
+#submit
+{
+  
+    padding: 20px 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #BA3B46;
+    color: #FFEEDB;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    font-family: Sofia Sans, sans-serif;
+    font-size: 17px;
+}
+
+input::placeholder
+{
+    color: #BA3B46;
+    font-family: Sofia Sans, sans-serif;
+    font-size: 20px;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #AA8F66;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.container-header
+{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    align-items: center;
+}
+
+#list-container
+{
+    margin-left: 50px; 
+    
+}
+ul li
+{
+    list-style: none;
+    font-size: 25px;
+    padding: 50px 25px 12px 60px;
+    position: relative;
+    font-weight: 800;
+    font-family: Sofia Sans, sans-serif;
+    
+}
+
+ul li::before
+{
+    content: '';
+    background-image: url(square.png);
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    background-position: center;
+    position: absolute;
+    left: 3px;
+}
+
+ul li.checked
+{
+    text-decoration: line-through;
+}
+
+ul li.checked::before
+{
+    background-image: url(checklist.png);
+}
+
+ul li img
+{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+   
+    
+}
+
+ul li img:hover
+{
+    background-color: #BA3B46;
+    transition-delay: 0.05s;
+}
+
+
