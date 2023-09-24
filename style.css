@@ -117,7 +117,7 @@ ul li
 ul li::before
 {
     content: '';
-    background-image: url(square.png);
+    background-image: url(img/square.png);
     background-size: cover;
     height: 24px;
     width: 24px;
@@ -133,7 +133,7 @@ ul li.checked
 
 ul li.checked::before
 {
-    background-image: url(checklist.png);
+    background-image: url(img/checklist.png);
    
 }
 

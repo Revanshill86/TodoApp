@@ -23,7 +23,7 @@ function addTask(event)
         listContainer.appendChild(li);
         //append x to end of li item
         let img = document.createElement("img");
-        img.src = 'delete.png';
+        img.src = 'img/delete.png';
         li.appendChild(img);
     }   
     //Clear the input text form
