@@ -39,8 +39,6 @@ With its user-friendly interface and straightforward functionality, this To-Do A
 
 ## Usage
 
-[Provide step-by-step instructions on how to use your app. Include screenshots or examples if possible.]
-
 1. Enter a task in the input field.
 ![Alt text](image.png)
 2. Click the "Add Task" button to add the task to the list.
@@ -50,18 +48,4 @@ With its user-friendly interface and straightforward functionality, this To-Do A
 
 ## Installation
 
-[Explain how to install or set up your app. Include any dependencies or prerequisites.]
-
 To use this app, you don't need to install anything. Simply open the provided HTML file in your web browser.
-
-## Contributing
-
-[Explain how others can contribute to your project, such as by reporting issues or submitting pull requests.]
-
-Contributions are welcome! If you encounter any bugs or have ideas for improvements, please [open an issue](https://github.com/your-username/your-repo/issues) or [create a pull request](https://github.com/your-username/your-repo/pulls).
-
-## License
-
-[Specify the license for your project. You can use common open-source licenses like MIT or Apache 2.0.]
-
-This project is licensed under the [MIT License](LICENSE).
