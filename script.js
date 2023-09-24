@@ -31,3 +31,29 @@ function addTask(event)
 }
 taskForm.addEventListener('submit', addTask);
 
+listContainer.addEventListener("click", function(e) {
+    if(e.target.tagName === "LI")
+    {
+        e.target.classList.toggle("checked");
+        console.log("checked")
+        saveData();
+    }
+    else if(e.target.tagName === "IMG")
+    {
+        e.target.parentElement.remove();
+        console.log("remove")
+        saveData();
+    }
+}, false);
+
+//Save data locally to browser storage
+function saveData()
+{
+    localStorage.setItem("data", listContainer.innerHTML);
+}
+
+function showTask()
+{
+    listContainer.innerHTML = localStorage.getItem("data");
+}
+showTask();
