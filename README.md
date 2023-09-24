@@ -43,12 +43,12 @@ https://revanshill86.github.io/TodoApp/
 
 ## Usage
 
-1. Enter a task in the input field.
-![Alt text](image.png)
+.1. Enter a task in the input field.
+![Alt text](/img/input.png)
 2. Click the "Add Task" button to add the task to the list.
 3. Click on a task to mark it as completed or uncompleted.
 4. Click the "Delete" button next to a task to remove it from the list.
-5. Your tasks are saved locally, so they will persist even if you close and reopen the app.
+5. Your tasks are saved locally, so they will persist even if you close and reopen the app
 
 ## Installation
 
